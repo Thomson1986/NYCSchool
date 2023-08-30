@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7191AF42A9A133C009A3E28 /* NYCSatScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7191AF32A9A133C009A3E28 /* NYCSatScore.swift */; };
+		C7191AF62A9A1A1E009A3E28 /* NYCSchoolSatDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7191AF52A9A1A1E009A3E28 /* NYCSchoolSatDetailsViewModel.swift */; };
+		C7191AF82A9A1DE3009A3E28 /* NYCSatDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7191AF72A9A1DE3009A3E28 /* NYCSatDetailsViewController.swift */; };
+		C7191AFA2A9A1E55009A3E28 /* NYCSatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7191AF92A9A1E55009A3E28 /* NYCSatCell.swift */; };
 		C7C632B82A96A9A70024BB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632B72A96A9A70024BB20 /* AppDelegate.swift */; };
 		C7C632BA2A96A9A70024BB20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632B92A96A9A70024BB20 /* SceneDelegate.swift */; };
 		C7C632BC2A96A9A70024BB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632BB2A96A9A70024BB20 /* ViewController.swift */; };
 		C7C632BF2A96A9A70024BB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C632BD2A96A9A70024BB20 /* Main.storyboard */; };
 		C7C632C12A96A9AD0024BB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C632C02A96A9AD0024BB20 /* Assets.xcassets */; };
 		C7C632C42A96A9AD0024BB20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C632C22A96A9AD0024BB20 /* LaunchScreen.storyboard */; };
-		C7C632CF2A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632CE2A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsTests.swift */; };
+		C7C632CF2A96A9AE0024BB20 /* NYCSchoolViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632CE2A96A9AE0024BB20 /* NYCSchoolViewModelTests.swift */; };
 		C7C632DA2A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632D92A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsUITests.swift */; };
+		C7C632EF2A96AD630024BB20 /* NYCSchools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632EE2A96AD630024BB20 /* NYCSchools.swift */; };
+		C7C632F22A96B10D0024BB20 /* NYCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632F12A96B10D0024BB20 /* NYCConstants.swift */; };
+		C7C632F42A96B19E0024BB20 /* NYCSchoolService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632F32A96B19E0024BB20 /* NYCSchoolService.swift */; };
+		C7C632F62A96B6560024BB20 /* NYCSchoolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632F52A96B6560024BB20 /* NYCSchoolViewModel.swift */; };
+		C7C632F92A96F9260024BB20 /* NYCSchoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632F82A96F9260024BB20 /* NYCSchoolCell.swift */; };
+		C7C632FB2A9702BA0024BB20 /* NYCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C632FA2A9702BA0024BB20 /* NYCExtension.swift */; };
+		C7CF960B2A9CD99500F9E87A /* SchoolListResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CF960A2A9CD99500F9E87A /* SchoolListResponse.json */; };
+		C7CF960D2A9CD9D500F9E87A /* NYCSchoolViewModelTestsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF960C2A9CD9D500F9E87A /* NYCSchoolViewModelTestsUtils.swift */; };
+		C7CF960E2A9CDF8400F9E87A /* SchoolListResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CF960A2A9CD99500F9E87A /* SchoolListResponse.json */; };
+		C7CF96102A9CEBDD00F9E87A /* SatResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CF960F2A9CEBDD00F9E87A /* SatResponse.json */; };
+		C7CF96112A9CEBF200F9E87A /* SatResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CF960F2A9CEBDD00F9E87A /* SatResponse.json */; };
+		C7CF96132A9CEE2100F9E87A /* NYCSchoolSatDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF96122A9CEE2100F9E87A /* NYCSchoolSatDetailsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7191AF32A9A133C009A3E28 /* NYCSatScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSatScore.swift; sourceTree = "<group>"; };
+		C7191AF52A9A1A1E009A3E28 /* NYCSchoolSatDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolSatDetailsViewModel.swift; sourceTree = "<group>"; };
+		C7191AF72A9A1DE3009A3E28 /* NYCSatDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSatDetailsViewController.swift; sourceTree = "<group>"; };
+		C7191AF92A9A1E55009A3E28 /* NYCSatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSatCell.swift; sourceTree = "<group>"; };
 		C7C632B42A96A9A70024BB20 /* 20230823-ThomsonVarghese-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230823-ThomsonVarghese-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C632B72A96A9A70024BB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7C632B92A96A9A70024BB20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +64,21 @@
 		C7C632C32A96A9AD0024BB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7C632C52A96A9AD0024BB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7C632CA2A96A9AE0024BB20 /* 20230823-ThomsonVarghese-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230823-ThomsonVarghese-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7C632CE2A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230823_ThomsonVarghese_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		C7C632CE2A96A9AE0024BB20 /* NYCSchoolViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolViewModelTests.swift; sourceTree = "<group>"; };
 		C7C632D02A96A9AE0024BB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7C632D52A96A9AE0024BB20 /* 20230823-ThomsonVarghese-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230823-ThomsonVarghese-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C632D92A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230823_ThomsonVarghese_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		C7C632DB2A96A9AE0024BB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C632EE2A96AD630024BB20 /* NYCSchools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchools.swift; sourceTree = "<group>"; };
+		C7C632F12A96B10D0024BB20 /* NYCConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCConstants.swift; sourceTree = "<group>"; };
+		C7C632F32A96B19E0024BB20 /* NYCSchoolService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolService.swift; sourceTree = "<group>"; };
+		C7C632F52A96B6560024BB20 /* NYCSchoolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolViewModel.swift; sourceTree = "<group>"; };
+		C7C632F82A96F9260024BB20 /* NYCSchoolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolCell.swift; sourceTree = "<group>"; };
+		C7C632FA2A9702BA0024BB20 /* NYCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCExtension.swift; sourceTree = "<group>"; };
+		C7CF960A2A9CD99500F9E87A /* SchoolListResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SchoolListResponse.json; sourceTree = "<group>"; };
+		C7CF960C2A9CD9D500F9E87A /* NYCSchoolViewModelTestsUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYCSchoolViewModelTestsUtils.swift; sourceTree = "<group>"; };
+		C7CF960F2A9CEBDD00F9E87A /* SatResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SatResponse.json; sourceTree = "<group>"; };
+		C7CF96122A9CEE2100F9E87A /* NYCSchoolSatDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolSatDetailsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +129,16 @@
 		C7C632B62A96A9A70024BB20 /* 20230823-ThomsonVarghese-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				C7C632F02A96B0FB0024BB20 /* Constants */,
+				C7C632ED2A96AA7E0024BB20 /* Views */,
+				C7C632EC2A96AA600024BB20 /* Extension */,
+				C7C632EB2A96AA5A0024BB20 /* Utils */,
+				C7C632EA2A96AA450024BB20 /* Controllers */,
+				C7C632E92A96AA2C0024BB20 /* Services */,
+				C7C632E82A96AA130024BB20 /* ViewModels */,
+				C7C632E72A96AA0C0024BB20 /* Models */,
 				C7C632B72A96A9A70024BB20 /* AppDelegate.swift */,
 				C7C632B92A96A9A70024BB20 /* SceneDelegate.swift */,
-				C7C632BB2A96A9A70024BB20 /* ViewController.swift */,
-				C7C632BD2A96A9A70024BB20 /* Main.storyboard */,
 				C7C632C02A96A9AD0024BB20 /* Assets.xcassets */,
 				C7C632C22A96A9AD0024BB20 /* LaunchScreen.storyboard */,
 				C7C632C52A96A9AD0024BB20 /* Info.plist */,
@@ -113,8 +149,12 @@
 		C7C632CD2A96A9AE0024BB20 /* 20230823-ThomsonVarghese-NYCSchoolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7C632CE2A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsTests.swift */,
+				C7CF960C2A9CD9D500F9E87A /* NYCSchoolViewModelTestsUtils.swift */,
+				C7C632CE2A96A9AE0024BB20 /* NYCSchoolViewModelTests.swift */,
 				C7C632D02A96A9AE0024BB20 /* Info.plist */,
+				C7CF960A2A9CD99500F9E87A /* SchoolListResponse.json */,
+				C7CF960F2A9CEBDD00F9E87A /* SatResponse.json */,
+				C7CF96122A9CEE2100F9E87A /* NYCSchoolSatDetailsViewModelTests.swift */,
 			);
 			path = "20230823-ThomsonVarghese-NYCSchoolsTests";
 			sourceTree = "<group>";
@@ -126,6 +166,82 @@
 				C7C632DB2A96A9AE0024BB20 /* Info.plist */,
 			);
 			path = "20230823-ThomsonVarghese-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		C7C632E72A96AA0C0024BB20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632EE2A96AD630024BB20 /* NYCSchools.swift */,
+				C7191AF32A9A133C009A3E28 /* NYCSatScore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7C632E82A96AA130024BB20 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632F52A96B6560024BB20 /* NYCSchoolViewModel.swift */,
+				C7191AF52A9A1A1E009A3E28 /* NYCSchoolSatDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C7C632E92A96AA2C0024BB20 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632F32A96B19E0024BB20 /* NYCSchoolService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C7C632EA2A96AA450024BB20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632BB2A96A9A70024BB20 /* ViewController.swift */,
+				C7191AF72A9A1DE3009A3E28 /* NYCSatDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C7C632EB2A96AA5A0024BB20 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C7C632EC2A96AA600024BB20 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632FA2A9702BA0024BB20 /* NYCExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C7C632ED2A96AA7E0024BB20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632F72A96F9050024BB20 /* Cell */,
+				C7C632BD2A96A9A70024BB20 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7C632F02A96B0FB0024BB20 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632F12A96B10D0024BB20 /* NYCConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C7C632F72A96F9050024BB20 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C7C632F82A96F9260024BB20 /* NYCSchoolCell.swift */,
+				C7191AF92A9A1E55009A3E28 /* NYCSatCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CF96112A9CEBF200F9E87A /* SatResponse.json in Resources */,
+				C7CF960E2A9CDF8400F9E87A /* SchoolListResponse.json in Resources */,
 				C7C632C42A96A9AD0024BB20 /* LaunchScreen.storyboard in Resources */,
 				C7C632C12A96A9AD0024BB20 /* Assets.xcassets in Resources */,
 				C7C632BF2A96A9A70024BB20 /* Main.storyboard in Resources */,
@@ -241,6 +359,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CF960B2A9CD99500F9E87A /* SchoolListResponse.json in Resources */,
+				C7CF96102A9CEBDD00F9E87A /* SatResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +378,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7191AF42A9A133C009A3E28 /* NYCSatScore.swift in Sources */,
+				C7191AFA2A9A1E55009A3E28 /* NYCSatCell.swift in Sources */,
+				C7C632F92A96F9260024BB20 /* NYCSchoolCell.swift in Sources */,
+				C7C632EF2A96AD630024BB20 /* NYCSchools.swift in Sources */,
+				C7191AF62A9A1A1E009A3E28 /* NYCSchoolSatDetailsViewModel.swift in Sources */,
+				C7C632F62A96B6560024BB20 /* NYCSchoolViewModel.swift in Sources */,
+				C7191AF82A9A1DE3009A3E28 /* NYCSatDetailsViewController.swift in Sources */,
 				C7C632BC2A96A9A70024BB20 /* ViewController.swift in Sources */,
+				C7C632FB2A9702BA0024BB20 /* NYCExtension.swift in Sources */,
 				C7C632B82A96A9A70024BB20 /* AppDelegate.swift in Sources */,
+				C7C632F22A96B10D0024BB20 /* NYCConstants.swift in Sources */,
+				C7C632F42A96B19E0024BB20 /* NYCSchoolService.swift in Sources */,
 				C7C632BA2A96A9A70024BB20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +398,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7C632CF2A96A9AE0024BB20 /* _0230823_ThomsonVarghese_NYCSchoolsTests.swift in Sources */,
+				C7CF960D2A9CD9D500F9E87A /* NYCSchoolViewModelTestsUtils.swift in Sources */,
+				C7C632CF2A96A9AE0024BB20 /* NYCSchoolViewModelTests.swift in Sources */,
+				C7CF96132A9CEE2100F9E87A /* NYCSchoolSatDetailsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

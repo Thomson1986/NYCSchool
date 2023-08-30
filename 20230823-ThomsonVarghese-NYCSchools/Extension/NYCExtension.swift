@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+extension NYCSchool {
+    
+    //To create address in multi lines
+    var displayAddress: String {
+        return "\(self.addressLine ?? "" ) \n \(self.city ?? ""), \(self.state ?? "") \n \(self.zip ?? "")"
+        
+    }
+}
