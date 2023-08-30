@@ -8,9 +8,14 @@
 import XCTest
 @testable import _0230823_ThomsonVarghese_NYCSchools
 
-class _0230823_ThomsonVarghese_NYCSchoolsTests: XCTestCase {
+class NYCSchoolViewModelTests: XCTestCase {
 
+    var schoolViewModel: NYCSchoolViewModel!
+    var schoolService: NYCSchoolRepository!
+    
     override func setUpWithError() throws {
+        
+        schoolService =
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
@@ -29,5 +34,13 @@ class _0230823_ThomsonVarghese_NYCSchoolsTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+}
 
+class MockService: NYCSchoolRepository {
+    
+    func fetchSchools<T>(_ t: T.Type, url: String, completion: @escaping ((T?) -> Void)) where T : Decodable, T : Encodable {
+        
+    }
+    
+    
 }
